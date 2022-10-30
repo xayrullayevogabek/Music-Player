@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Music Player</title>
+</head>
+<body>
+    <div class="main">
+        <div class="audio-container" id="audio-container">
+             <h4 id="title">Melody</h4>
+             <audio src="" id="audio"></audio>
+             <div class="image-container">
+                <img src="" alt="music-image" id="cover">
+             </div>
+
+             <div class="progress-container" id="progress-container">
+                <div class="progress" id="progress"></div>
+             </div>
+
+             <div class="navigation">
+                <button id="prev" class="btn">
+                    <i class='bx bx-skip-previous'></i>
+                </button>
+                <button id="play" class="btn">
+                    <i class='bx bx-play'></i>
+                </button>
+                <button id="next" class="btn">
+                    <i class='bx bx-skip-next' ></i>
+                </button>
+             </div>
+        </div>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+</html>
